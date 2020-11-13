@@ -4,8 +4,8 @@ config :elixir_popularity, ecto_repos: [ElixirPopularity.Repo]
 
 config :elixir_popularity, ElixirPopularity.Repo,
   database: "elixir_popularity_repo",
-  username: "postgres",
-  password: "postgres",
+  username: "nmenag",
+  password: "hainover1",
   hostname: "localhost",
   log: false
 
