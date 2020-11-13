@@ -8,6 +8,7 @@ defmodule ElixirPopularity.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      ElixirPopularity.Repo
       # Starts a worker by calling: ElixirPopularity.Worker.start_link(arg)
       # {ElixirPopularity.Worker, arg}
     ]
